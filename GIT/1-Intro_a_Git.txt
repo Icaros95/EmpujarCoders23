@@ -1,8 +1,14 @@
 Intro a GIT:
 git commit => el comando "commit" guarda los archivos en el repositorio local. Captura una "instantánea" (confirmada, puede ser considerada como una versión "segura" de un proyecto) de los cambios preparados/hechos/modificados en ese momento del proyecto. => Git no las cambia nunca, a menos que el usuario se lo indique.
+#Ejemplo: git commit -m "Agregando archivo de inicio"
 
 git fetch => el comando "fetch" descarga commits, archivos y referencias de un repositorio remoto al repositorio local del usuario. Lo que hace es traer actualizaciones del servidor remoto y guardarlas en el repo local. => usada cuando se quiere verificar en qué han estado trabajando los demás.
+#Ejemplo: git fetch origin
 
-git pull => el comando git pull es uno de los que se encargan de "sincronizar" el contenido remoto. => trae actualizaciones del servidor remoto, las guarda localmente (en un repo local) y combina los ultimos cambios del server remoto y el directorio de trabajo 
+git pull => el comando git pull es uno de los que se encargan de "sincronizar" el contenido remoto. => trae actualizaciones del servidor remoto, las guarda localmente (en un repo local) y combina los ultimos cambios del server remoto y el directorio de trabajo. 
+#Ejemplo: git pull origin main
 
 git push =>el comando "push" sirve para cargar contenido en un repositorio remoto. => manda los cambios/modificaciones en un archivo/proyecto al servidor remoto en donde se aloja.
+#Ejemplo: git push origin main
+
+:D
